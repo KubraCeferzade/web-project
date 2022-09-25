@@ -32,8 +32,7 @@ main {
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-left: auto;
+  padding-left: 4rem;
 }
 nav {
   position: fixed;
@@ -58,9 +57,6 @@ nav ul li a {
 }
 nav ul li a:hover {
   border-bottom: 1px solid #fff;
-}
-.header-main .hero {
-  max-width: 750px;
 }
 .header-main p {
   margin: 0;
@@ -102,17 +98,87 @@ nav ul li a:hover {
 .header-main .hero_btn:hover {
   background: #272626;
 }
-
-.servis{
+.section-services .section-text {
+  text-align: center;
+  margin-top: 10px;
+}
+.section-text h2 {
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+}
+.section-text p {
+  font-weight: 400;
+  font-size: 24px;
+}
+.card {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-bottom: 90px;
+  display: inline-block;
+  height: 160px;
+  border: 0 !important;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+}
+.section-video .section-text {
+  text-align: center;
+  margin-top: 10px;
+}
+.section-questions {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.question {
+  width: 50%;
+  height: 300px;
+  margin-top: 100px;
+}
+.question h2 {
+  margin-bottom: 60px;
+  font-weight: 300;
+  font-size: 32px;
+}
+.question-text p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid #a19f9f;
+}
+.section-contact .footer-img {
+  height: 309px;
+  background-image: url("img/footer_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
-.cards{
-  display: flex;
-  
-  gap: 20px;
+.footer-img h2 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #ffffff;
+  padding-top: 225px;
+  padding-left: 100px;
 }
-.card{
-  width: 150px;
+.section-contact .footer-contact {
+  height: 230px;
+  background: #222222;
+  border-radius: 0px 0px 10px 10px;
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+display:flex;
+gap: 80px;
+padding-left: 100px;
+padding-top: 52px;
 }
+
