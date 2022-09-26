@@ -13,6 +13,9 @@
   src: url(fonts/Roboto-Medium.ttf);
   font-weight: 500;
 }
+html{
+  scroll-behavior: smooth;
+}
 body,
 html {
   margin: 0;
@@ -113,6 +116,7 @@ nav ul li a:hover {
 .section-text p {
   font-weight: 400;
   font-size: 24px;
+  padding-bottom: 50px;
 }
 .card {
   text-align: center;
@@ -141,6 +145,7 @@ nav ul li a:hover {
   width: 50%;
   height: 300px;
   margin-top: 100px;
+  margin-bottom: 110px;
 }
 .question h2 {
   margin-bottom: 60px;
@@ -188,13 +193,11 @@ nav ul li a:hover {
   height: 450px;
   background: #ffffff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-  display: flex;
-  align-items: flex-end;
+  align-items:center;
   justify-content: center;
   text-align: center;
   border-radius: 5px;
 }
-
 form input {
   padding: 20px;
   border: none;
